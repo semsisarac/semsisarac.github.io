@@ -1,0 +1,50 @@
+.sankey .node rect {
+  fill-opacity: 0.9;
+  shape-rendering: crispEdges;
+}
+.sankey .node text {
+  cursor: default;
+  font-size: 11px;
+}
+.sankey .link {
+  fill: none;
+  opacity: 0.3;
+  stroke-width: 0;
+}
+
+path.slice {
+  stroke-width: 2px;
+}
+
+polyline {
+  opacity: 0.3;
+  stroke: black;
+  stroke-width: 2px;
+  fill: none;
+}
+
+.d3-hover-popover {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 6px;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px;
+  position: absolute;
+  visibility: hidden;
+}
+.d3-hover-popover rect {
+  fill: rgba(0, 0, 0, 0.75);
+}
+.d3-hover-popover text {
+  fill: #fff;
+  font-size: 13px;
+}
+.d3-hover-popover .center {
+  text-align: center;
+}
+.d3-hover-popover .headline {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 0.3em;
+}
